@@ -1,0 +1,74 @@
+/* style.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('pizza-background.jpg'); /* 'pizza-background.jpg'  image  */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Setting the background color with some transparency */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input, select, button {
+    margin-bottom: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #ff6347;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d1473d;
+}
+
+.thank-you-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.thank-you-container h1 {
+    color: #333;
+}
+
+.thank-you-container p {
+    color: #666;
+}
+
+.thank-you-container img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+

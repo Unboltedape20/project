@@ -1,0 +1,35 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Smokey Oven's Pizza Order</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Smokey Oven's Pizza Order</h1>
+        <form action="process.php" method="post">
+            <label for="customer_name">Your Name:</label>
+            <input type="text" id="customer_name" name="customer_name" required>
+
+            <label for="customer_email">Your Email:</label>
+            <input type="email" id="customer_email" name="customer_email" required>
+
+            <label for="pizza_type">Pizza Type:</label>
+            <select id="pizza_type" name="pizza_type" required>
+                <option value="Margherita">Margherita - $10.99</option>
+                <option value="Pepperoni">Pepperoni - $12.99</option>
+                <option value="Vegetarian">Vegetarian - $11.99</option>
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <button type="submit">Place Order</button>
+        </form>
+    </div>
+</body>
+</html>
+
