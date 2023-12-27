@@ -9,11 +9,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $pizzaType = $_POST["pizza_type"];
     $quantity = intval($_POST["quantity"]);
 
-    // Calculate total price (replace with your pricing logic)
-    $pricePerPizza = 10.99; // Adjust based on your pricing
+    // Calculate total price 
+    $pricePerPizza = 10.99; // 
     $totalPrice = $quantity * $pricePerPizza;
 
-    // Connect to the database (replace with your database credentials)
+    // Connect to the database 
     $conn = new mysqli("localhost", "Mithilesh", "password123", "pizza_shop");
 
     // Check connection
